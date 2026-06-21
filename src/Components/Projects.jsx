@@ -1,7 +1,7 @@
-import ProjectCard from './ProjectCard'
-import GameGridLogo from './GameGridLogo'
-import PongScanLogo from './PongScanLogo'
-import VideoThumb from './VideoThumb'
+import Projectcard from './Projectcard'
+import Gamegridlogo from './Gamegridlogo'
+import Pongscanlogo from './Pongscanlogo'
+import Videothumb from './Videothumb'
 import qLearningDemo from '../assets/q-learning-demo.mp4'
 import dqnDemo from '../assets/dqn-demo.mp4'
 
@@ -22,8 +22,8 @@ function Projects({ id }) {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-16">
 
           {/* GameGrid — the wordmark itself is the name, no separate title */}
-          <ProjectCard
-            media={<GameGridLogo />}
+          <Projectcard
+            media={<Gamegridlogo />}
             title={null}
             description="A game recommendation web app with two discovery paths — filter by genre and platform, or rate games you've played to build a taste profile that surfaces similar highly-rated titles. Features a real-time autocomplete search, an inline details panel pulling from the RAWG API, and a persistent SQLite-backed taste profile."
             tags={['Python', 'Flask', 'SQLite', 'Jinja2', 'JavaScript']}
@@ -32,8 +32,8 @@ function Projects({ id }) {
           />
 
           {/* ASE Pong — the animated PONG wordmark is the name, no separate title */}
-          <ProjectCard
-            media={<PongScanLogo mode="cycle" />}
+          <Projectcard
+            media={<Pongscanlogo mode="cycle" />}
             title={null}
             description="A two-player Pong build with an adversarial twist — built as a sandbox for experimenting with reactive, systems-driven game logic."
             tags={['JavaScript', 'HTML', 'CSS']}
@@ -41,8 +41,8 @@ function Projects({ id }) {
           />
 
           {/* DQN Visualizer — no logo, video shown full size, title displayed below */}
-          <ProjectCard
-            media={<VideoThumb src={dqnDemo} label="DQN agent learning a maze, heatmap glowing outward from the goal" />}
+          <Projectcard
+            media={<Videothumb src={dqnDemo} label="DQN agent learning a maze, heatmap glowing outward from the goal" />}
             title="DQN Visualizer"
             description="A deep Q-learning agent that learns to navigate a maze using a neural network instead of a lookup table. A live heatmap shows the network's understanding spreading outward from the goal as it trains, powered by experience replay for stable learning."
             tags={['Python', 'PyTorch', 'Pygame', 'NumPy']}
@@ -50,8 +50,8 @@ function Projects({ id }) {
           />
 
           {/* Q-Learning Visualizer — no logo, video shown full size, title displayed below */}
-          <ProjectCard
-            media={<VideoThumb src={qLearningDemo} label="Q-learning agent solving a hand-drawn maze, heatmap updating live" />}
+          <Projectcard
+            media={<Videothumb src={qLearningDemo} label="Q-learning agent solving a hand-drawn maze, heatmap updating live" />}
             title="Q-Learning Visualizer"
             description="An interactive reinforcement learning visualizer built from scratch. Draw a custom maze, place the goal, and watch a Q-learning agent explore, learn, and converge on the optimal path through a live-updating value heatmap."
             tags={['Python', 'Pygame', 'NumPy']}
