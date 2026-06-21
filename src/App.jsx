@@ -4,7 +4,7 @@ import About from './Components/About'
 import Projects from './Components/Projects'
 import Contact from './Components/Contact'
 import Footer from './Components/Footer'
-import VantaBackground from './Components/VantaBackground'
+import VantaBackground from './Components/Vantabackground'
 
 function App() {
   return (
