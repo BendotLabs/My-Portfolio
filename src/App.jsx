@@ -1,10 +1,10 @@
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import About from './components/About'
-import Projects from './components/Projects'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
-import VantaBackground from './components/VantaBackground'
+import Navbar from './Components/Navbar'
+import Hero from './Components/Hero'
+import About from './Components/About'
+import Projects from './Components/Projects'
+import Contact from './Components/Contact'
+import Footer from './Components/Footer'
+import VantaBackground from './Components/VantaBackground'
 
 function App() {
   return (
