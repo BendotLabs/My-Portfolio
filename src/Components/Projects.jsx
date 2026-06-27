@@ -4,6 +4,7 @@ import Pongscanlogo from './Pongscanlogo'
 import Videothumb from './Videothumb'
 import qLearningDemo from '../assets/q-learning-demo.mp4'
 import dqnDemo from '../assets/dqn-demo.mp4'
+import { ExternalLink } from 'Lucide-react'
 
 function Projects({ id }) {
   return (
@@ -28,7 +29,7 @@ function Projects({ id }) {
             description="A game recommendation web app with two discovery paths — filter by genre and platform, or rate games you've played to build a taste profile that surfaces similar highly-rated titles. Features a real-time autocomplete search, an inline details panel pulling from the RAWG API, and a persistent SQLite-backed taste profile."
             tags={['Python', 'Flask', 'SQLite', 'Jinja2', 'JavaScript']}
             liveUrl="https://gamegrid-i8qo.onrender.com"
-            githubUrl="https://github.com/Tesseractaa/Game-Rec-Web"
+            githubUrl="https://github.com/BendotLabs/Game-Rec-Web"
           />
 
           {/* ASE Pong — the animated PONG wordmark is the name, no separate title */}
@@ -37,7 +38,7 @@ function Projects({ id }) {
             title={null}
             description="A two-player Pong build with an adversarial twist — built as a sandbox for experimenting with reactive, systems-driven game logic."
             tags={['JavaScript', 'HTML', 'CSS']}
-            githubUrl="https://github.com/Tesseractaa/ASE-Pong"
+            githubUrl="https://github.com/BendotLabs/ASE-Pong"
           />
 
           {/* DQN Visualizer — no logo, video shown full size, title displayed below */}
@@ -46,7 +47,7 @@ function Projects({ id }) {
             title="DQN Visualizer"
             description="A deep Q-learning agent that learns to navigate a maze using a neural network instead of a lookup table. A live heatmap shows the network's understanding spreading outward from the goal as it trains, powered by experience replay for stable learning."
             tags={['Python', 'PyTorch', 'Pygame', 'NumPy']}
-            githubUrl="https://github.com/Tesseractaa/DQN-Visualizer"
+            githubUrl="https://github.com/BendotLabs/DQN-Visualizer"
           />
 
           {/* Q-Learning Visualizer — no logo, video shown full size, title displayed below */}
@@ -55,7 +56,7 @@ function Projects({ id }) {
             title="Q-Learning Visualizer"
             description="An interactive reinforcement learning visualizer built from scratch. Draw a custom maze, place the goal, and watch a Q-learning agent explore, learn, and converge on the optimal path through a live-updating value heatmap."
             tags={['Python', 'Pygame', 'NumPy']}
-            githubUrl="https://github.com/Tesseractaa/Q-Learning-Visualizer"
+            githubUrl="https://github.com/BendotLabs/Q-Learning-Visualizer"
           />
 
         </div>
@@ -63,13 +64,13 @@ function Projects({ id }) {
         {/* See more on GitHub */}
         <div className="flex justify-center mt-16">
           <a
-            href="https://github.com/Tesseractaa"
+            href="https://github.com/BendotLabs"
             target="_blank"
             rel="noopener noreferrer"
-            className="group px-9 py-3 text-sm font-medium tracking-widest text-slate-700 border border-transparent hover:border-slate-700 hover:bg-slate-700 hover:text-orange-200 rounded transition-all duration-200"
+            className="group px-9 py-3 text-sm font-medium tracking-widest text-slate-600 border border-transparent hover:border-slate-700 hover:bg-slate-700 hover:text-orange-200 rounded transition-all duration-200 inline-flex items-center gap-1"
             style={{ fontFamily: "'Oswald', sans-serif" }}
           >
-            See more on my GitHub →
+            See more on my GitHub <ExternalLink size={16} />
           </a>
         </div>
 

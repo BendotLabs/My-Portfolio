@@ -27,10 +27,9 @@ function Footer() {
         "Automation is the companion of curiosity."
       </p>
 
-      {/* LinkedIn — uncomment once profile is live */}
-      {/*
+      {/* LinkedIn */}
       <a
-        href="https://www.linkedin.com/in/YOUR-PROFILE"
+        href="https://www.linkedin.com/in/cole-burket-9a0207413/"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="LinkedIn"
@@ -40,11 +39,10 @@ function Footer() {
           <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9h3.564v11.452z"/>
         </svg>
       </a>
-      */}
 
       {/* Copyright */}
-      <p className="mt-2 font-mono text-xs tracking-widest uppercase text-rose-800/40">
-        © 2026 Cole Burket / Tesseracta
+      <p className="mt-2 font-mono text-xs tracking-widest uppercase text-rose-900/50">
+        © 2026 Cole Burket / Bendot Labs
       </p>
 
     </footer>

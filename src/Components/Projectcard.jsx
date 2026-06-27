@@ -1,3 +1,5 @@
+import { ExternalLink } from 'Lucide-react'
+
 function ProjectCard({ media, title, description, tags = [], liveUrl, githubUrl }) {
   return (
     <div className="flex flex-col items-center text-center">
@@ -49,10 +51,10 @@ function ProjectCard({ media, title, description, tags = [], liveUrl, githubUrl 
             href={liveUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-xs font-medium tracking-widest uppercase text-slate-700 hover:text-slate-500 transition-colors duration-200"
+            className="text-xs font-medium tracking-widest uppercase text-slate-600 hover:text-slate-500 transition-colors duration-200 inline-flex items-center gap-1"
             style={{ fontFamily: "'Oswald', sans-serif" }}
           >
-            Live Demo →
+            Live Demo <ExternalLink size={16} />
           </a>
         )}
         {githubUrl && (
@@ -60,10 +62,10 @@ function ProjectCard({ media, title, description, tags = [], liveUrl, githubUrl 
             href={githubUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-xs font-medium tracking-widest uppercase text-slate-600 hover:text-slate-500 transition-colors duration-200"
+            className="text-xs font-medium tracking-widest uppercase text-slate-600 hover:text-slate-500 transition-colors duration-200 inline-flex items-center gap-1"
             style={{ fontFamily: "'Oswald', sans-serif" }}
           >
-            GitHub →
+            GitHub <ExternalLink size={16} />
           </a>
         )}
       </div>

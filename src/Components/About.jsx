@@ -114,7 +114,7 @@ function About({ id }) {
                   {/* + rotates to × */}
                   <span
                     className={`text-xl font-light leading-none transition-transform duration-300 ease-in-out ${
-                      isOpen ? 'text-rose-800 rotate-45' : 'text-slate-600 rotate-0'
+                      isOpen ? 'text-rose-900 rotate-45' : 'text-slate-600 rotate-0'
                     }`}
                   >
                     +

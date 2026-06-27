@@ -123,7 +123,7 @@ function Contact({ id }) {
               </p>
             )}
             {status === 'error' && (
-              <p className="text-sm font-mono text-rose-800 tracking-wide">
+              <p className="text-sm font-mono text-rose-900 tracking-wide">
                 Something went wrong. Try again.
               </p>
             )}
@@ -131,7 +131,7 @@ function Contact({ id }) {
             <button
               type="submit"
               disabled={status === 'sending'}
-              className="group px-9 py-3 text-sm font-medium tracking-widest text-slate-700 border border-transparent hover:border-slate-700 hover:bg-slate-700 hover:text-orange-200 rounded transition-all duration-200 disabled:opacity-50"
+              className="group px-9 py-3 text-sm font-medium tracking-widest text-slate-600 border border-transparent hover:border-slate-700 hover:bg-slate-700 hover:text-orange-200 rounded transition-all duration-200 disabled:opacity-50"
               style={{ fontFamily: "'Oswald', sans-serif" }}
             >
               {status === 'sending' ? 'Sending...' : 'Send my way!'}

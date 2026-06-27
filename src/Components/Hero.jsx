@@ -6,7 +6,7 @@ function Hero({ id }) {
     { text: "// Ideas deserve momentum",       color: "#334155", indent: "0em"   },
     { text: "// Complexity deserves clarity",  color: "#334155", indent: "1.5em" },
     { text: "// The future deserves builders", color: "#334155", indent: "3em"   },
-    { text: "// You found yours",              color: "#9f1239", indent: "0em"   },
+    { text: "// You found yours",              color: "#881337", indent: "0em"   },
   ]
 
   return (
@@ -31,7 +31,7 @@ function Hero({ id }) {
               <span className="block">Burket</span>
             </h1>
             <p
-              className="mt-5 uppercase tracking-widest text-rose-800 font-medium"
+              className="mt-5 uppercase tracking-widest text-rose-900 font-medium"
               style={{ fontSize: "clamp(0.6rem, 1.1vw, 0.9rem)" }}
             >
               Full-Stack Developer &amp; AI/ML Enthusiast
