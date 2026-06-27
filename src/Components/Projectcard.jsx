@@ -1,4 +1,4 @@
-import { ExternalLink } from 'Lucide-react'
+import { ExternalLink } from 'lucide-react'
 
 function ProjectCard({ media, title, description, tags = [], liveUrl, githubUrl }) {
   return (

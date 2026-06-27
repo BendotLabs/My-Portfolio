@@ -4,7 +4,7 @@ import Pongscanlogo from './Pongscanlogo'
 import Videothumb from './Videothumb'
 import qLearningDemo from '../assets/q-learning-demo.mp4'
 import dqnDemo from '../assets/dqn-demo.mp4'
-import { ExternalLink } from 'Lucide-react'
+import { ExternalLink } from 'lucide-react'
 
 function Projects({ id }) {
   return (
